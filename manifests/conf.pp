@@ -4,8 +4,9 @@
 #
 define fooacl::conf (
   $permissions,
-  $target      = $name,
-  $order       = 20,
+  $target       = $name,
+  $order        = 20,
+  $default_acls = false,
 ) {
 
   include '::fooacl'
