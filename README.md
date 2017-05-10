@@ -17,8 +17,8 @@ Features :
   (flexible).
 * Automatic purging of ACLs on paths as long as at least one ACL is still
   being applied by the module (remove users easily and reliably).
-* Automatic setting of both normal and default ACLs to the same values
-  (shortens declarations, increases code readability).
+* By setting `default_acls => true`, a default ACL entry will be created for
+  each specified permission.
 
 Limitations :
 * No purging once paths are no longer being managed by the module.
