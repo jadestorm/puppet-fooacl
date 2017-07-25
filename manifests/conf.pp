@@ -7,7 +7,7 @@ define fooacl::conf (
   $target       = $name,
   $order        = 20,
   $recurse      = true,
-  $default_acls = false,
+  $default_acls = true,
 ) {
 
   include '::fooacl'
